@@ -1,5 +1,8 @@
 # CyberSecurity
 Treinamentos de Cibersegurança
+### Ambiente Kali e Metasploitable
+![](https://github.com/JonathanSRS/CyberSecurity/blob/main/img/medusa_metasplotable.png)
+
 ### Medusa
 medusa -h {IP} -U {.txt} -P {.txt} -M {mod} -t {num} -T {num}\
 -h Host\
@@ -9,7 +12,16 @@ medusa -h {IP} -U {.txt} -P {.txt} -M {mod} -t {num} -T {num}\
 -t Núméro de logins\
 -T Número de hosts\
 
+![](https://github.com/JonathanSRS/CyberSecurity/blob/main/img/medusa.png)
+
 enum4linux -a {IP} | tree {output.txt}
+
+1. Criar Word list\
+![](https://github.com/JonathanSRS/CyberSecurity/blob/main/img/Criar%20lista%20de%20palavras.png)
+2. Executar medusa\
+![](https://github.com/JonathanSRS/CyberSecurity/blob/main/img/Testar%20senha%20ftp.png)
+3. Validar senha 
+![](https://github.com/JonathanSRS/CyberSecurity/blob/main/img/medusa_ftp.png)
 
 ### Keylogger Ransoware
 Script ransoware.py que criptografa os dados de um determinado diretorio\
