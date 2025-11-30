@@ -14,22 +14,22 @@ medusa -h {IP} -U {.txt} -P {.txt} -M {mod} -t {num} -T {num}\
 
 ![](https://github.com/JonathanSRS/CyberSecurity/blob/main/img/medusa.png)
 
-### Pytest Ftp
+### Pentest Ftp
 1. Criar Word list\
 ![Ambiente Kali criando word list](https://github.com/JonathanSRS/CyberSecurity/blob/main/img/Criar%20lista%20de%20palavras.png)
 2. Executar medusa\
-![Ambiente Kali pytest com medusa protocolo ftp](https://github.com/JonathanSRS/CyberSecurity/blob/main/img/Testar%20senha%20ftp.png)
+![Ambiente Kali Pentest com medusa protocolo ftp](https://github.com/JonathanSRS/CyberSecurity/blob/main/img/Testar%20senha%20ftp.png)
 3. Validar senha 
 ![Ambiente Kali validar entrada na porta ftp](https://github.com/JonathanSRS/CyberSecurity/blob/main/img/medusa_ftp.png)
 
-### Pytest smb
+### Pentest smb
 1. enum4linux -a {IP} | tree {output.txt}\
 ![Ambiente Kali executar com enum4linux](https://github.com/JonathanSRS/CyberSecurity/blob/main/img/Enumerando.png)\
 ![Ambiente Kali resultado enum4linux](https://github.com/JonathanSRS/CyberSecurity/blob/main/img/resultado%20enumera%C3%A7%C3%A3o.png)
 2. Criar nova word list\
 ![Ambiente Kali criar nova word list](https://github.com/JonathanSRS/CyberSecurity/blob/main/img/Criar%20novas%20wordlists.png)
 3. Executar medusa\
-![Ambiente Kali pytest com medusa protocolo smb](https://github.com/JonathanSRS/CyberSecurity/blob/main/img/Executando%20medusa%20modulo%20smb.png)
+![Ambiente Kali Pentest com medusa protocolo smb](https://github.com/JonathanSRS/CyberSecurity/blob/main/img/Executando%20medusa%20modulo%20smb.png)
 4. Resultado do comando medusa\
 ![Ambiente Kali Resultado smb](https://github.com/JonathanSRS/CyberSecurity/blob/main/img/Sucesso%20smb.png)
 5. Acessar smb\
